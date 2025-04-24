@@ -1,4 +1,4 @@
-# Customer-Churn-Prediction-
+# Customer-Churn-Prediction
 ## Introduction
 This project analyzes telecom customer data to predict which customers are likely to churn (discontinue their service). In the highly competitive telecom industry, where the annual churn rate reaches 15-25%, early identification of at-risk customers can significantly impact a company's bottom line.
 
