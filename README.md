@@ -49,8 +49,11 @@ The dataset includes information about:
 The preprocessing pipeline included:
 
 Handling missing values in the TotalCharges column
+
 Converting categorical variables using label encoding
+
 Standardizing numerical features using StandardScaler
+
 Splitting data into training and testing sets (70/30 split)
 
 ## Machine Learning Models
