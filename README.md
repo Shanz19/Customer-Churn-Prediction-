@@ -29,21 +29,21 @@ Evaluate various machine learning algorithms for churn prediction
 ## Data Exploration
 The dataset includes information about:
 
-Customer demographics: gender, age range, partners, dependents
-Account information: tenure, contract type, payment method, billing preferences
-Services used: phone service, internet type, security features, streaming services
-Financial data: monthly charges, total charges
-Churn status: whether the customer left in the last month
+- Customer demographics: gender, age range, partners, dependents
+- Account information: tenure, contract type, payment method, billing preferences
+- Services used: phone service, internet type, security features, streaming services
+- Financial data: monthly charges, total charges
+- Churn status: whether the customer left in the last month
 
 ## Key findings from exploratory analysis:
 
-26.6% of customers switched to another firm
-Customer distribution is balanced between males (50.5%) and females (49.5%)
-75% of customers with month-to-month contracts churned
-Customers with electronic payment methods showed higher churn rates
-Fiber optic users demonstrated higher churn rates despite popularity
-Absence of online security and tech support increased likelihood of churn
-New customers and those with higher monthly charges were more likely to churn
+- 26.6% of customers switched to another firm
+- Customer distribution is balanced between males (50.5%) and females (49.5%)
+- 75% of customers with month-to-month contracts churned
+- Customers with electronic payment methods showed higher churn rates
+- Fiber optic users demonstrated higher churn rates despite popularity
+- Absence of online security and tech support increased likelihood of churn
+- New customers and those with higher monthly charges were more likely to churn
 
 ## Data Preprocessing
 The preprocessing pipeline included:
@@ -56,14 +56,14 @@ Splitting data into training and testing sets (70/30 split)
 ## Machine Learning Models
 Several classification algorithms were implemented and evaluated:
 
-K-Nearest Neighbors (KNN)
-Support Vector Classifier (SVC)
-Random Forest Classifier
-Logistic Regression
-Decision Tree Classifier
-AdaBoost Classifier
-Gradient Boosting Classifier
-Voting Classifier (ensemble of top performers)
+- K-Nearest Neighbors (KNN)
+- Support Vector Classifier (SVC)
+- Random Forest Classifier
+- Logistic Regression
+- Decision Tree Classifier
+- AdaBoost Classifier
+- Gradient Boosting Classifier
+- Voting Classifier (ensemble of top performers)
 
 ## Results and Evaluation
 Model performance comparison:
@@ -77,22 +77,23 @@ Model performance comparison:
 | SVC | 80.8% |
 | KNN | 77.5% |
 | Decision Tree | 72.5% |
+
 The final Voting Classifier achieved the best overall performance with 81.7% accuracy and balanced precision/recall metrics for churn prediction.
 
 ## Conclusion
 The analysis revealed several key factors that influence customer churn:
 
-Contract type has the strongest correlation with churn
-Tenure and security features significantly impact retention
-Monthly charges are positively correlated with churn risk
-Support services (tech support, online security) are important retention factors
+- Contract type has the strongest correlation with churn
+- Tenure and security features significantly impact retention
+- Monthly charges are positively correlated with churn risk
+- Support services (tech support, online security) are important retention factors
 
 Customer churn significantly impacts a firm's profitability. The best strategy to reduce churn is to:
 
-Identify at-risk customers early using predictive models
-Improve customer satisfaction through better service
-Build customer loyalty through personalized experiences
-Survey churned customers to understand their reasons for leaving
+- Identify at-risk customers early using predictive models
+- Improve customer satisfaction through better service
+- Build customer loyalty through personalized experiences
+- Survey churned customers to understand their reasons for leaving
 
 ## Technologies Used
 
