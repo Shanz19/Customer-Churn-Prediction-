@@ -96,9 +96,9 @@ Survey churned customers to understand their reasons for leaving
 
 ## Technologies Used
 
-Python: Primary programming language
-Pandas & NumPy: Data manipulation and analysis
-Matplotlib & Seaborn: Data visualization
-Scikit-learn: Machine learning algorithms and evaluation metrics
-Plotly: Interactive visualizations
+- Python: Primary programming language
+- Pandas & NumPy: Data manipulation and analysis
+- Matplotlib & Seaborn: Data visualization
+- Scikit-learn: Machine learning algorithms and evaluation metrics
+- Plotly: Interactive visualizations
 
